@@ -22,7 +22,7 @@ header > h1 {
 
 }
 
-header >p {
+header > p {
     padding: 50px;
 }
 
@@ -34,19 +34,42 @@ section {
 }
 
 section.normal {
-    background-color: rgb(49, 49, 94);
-    color: white;
+    background-color: rgb(253, 253, 253);
+    color: rgb(15, 15, 15);
+} 
 
+section.imagem {
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 46px 13px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    width: 300px;
-    background-color: rgba(94, 75, 75, 0.103);
-  
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(48, 37, 37, 0.479);
+    text-shadow:1px 1px 0px black ;
+}
+section#img01 {
+    background-image: url('imagem/sidnei01.jpg');
+    background-position: center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url('imagem/sidnei02.jpg');
+    background-position:center ;
+    background-size: cover;
+}
+section#img03 {
+    background-image: url('imagem/sidnei03.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
