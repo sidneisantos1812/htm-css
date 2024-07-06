@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas de cadastro</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome, col.cprofisão {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>tipo de cadastros</h1>
+    <table> 
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo">
+            <col class="cprofisão">
+        </colgroup>
+        <caption>cadastro de pessoas</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">idade</th>
+            <th scope="col">sexo</th>
+            <th scope="col">profisão</th>
+        </tr> 
+        <tr>
+            <td>maria</td>
+            <td>34</td>
+            <td>F</td>
+            <td>domestica</td>
+        </tr>
+            <td>joão</td>
+            <td>65</td>
+            <td>M</td>
+            <td>agricultor</td>
+        </tr>
+        <tr>
+            <td>pedro</td>
+            <td>54</td>
+            <td>M</td>
+            <td>aposentado</td>
+        </tr>
+        <tr>
+            <td>dilma</td>
+            <td>87</td>
+            <td>F</td>
+            <td>afasendo hrs extras</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
