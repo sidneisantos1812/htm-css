@@ -11,8 +11,8 @@ html,body {
 }
  
 header{
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: rgba(65, 240, 118, 0.493);
     text-align: center;
 }
 
